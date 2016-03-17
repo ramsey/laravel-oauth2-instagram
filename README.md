@@ -9,7 +9,7 @@
 [![Coverage Status][badge-coverage]][coverage]
 [![Total Downloads][badge-downloads]][downloads]
 
-ramsey/laravel-oauth2-instagram a [Laravel 5](https://laravel.com/) service provider for [league/oauth2-instagram](https://github.com/thephpleague/oauth2-instagram).
+ramsey/laravel-oauth2-instagram is a [Laravel 5](https://laravel.com/) service provider for [league/oauth2-instagram](https://github.com/thephpleague/oauth2-instagram).
 
 This project adheres to a [Contributor Code of Conduct][conduct]. By participating in this project and its community, you are expected to uphold this code.
 
@@ -108,7 +108,7 @@ The ramsey/laravel-oauth2-instagram library is copyright © [Ben Ramsey](https:/
 
 
 
-[conduct]: https://github.com/ramsey/laravel-oauth2-instagram/blob/master/CONDUCT.md
+[conduct]: https://github.com/ramsey/laravel-oauth2-instagram/blob/master/CODE_OF_CONDUCT.md
 [packagist]: https://packagist.org/packages/ramsey/laravel-oauth2-instagram
 [composer]: http://getcomposer.org/
 [contributing]: https://github.com/ramsey/laravel-oauth2-instagram/blob/master/CONTRIBUTING.md

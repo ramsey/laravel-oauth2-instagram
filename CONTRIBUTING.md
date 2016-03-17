@@ -2,7 +2,7 @@
 
 Contributions are welcome. We accept pull requests on [GitHub](https://github.com/ramsey/laravel-oauth2-instagram).
 
-This project adheres to a [Contributor Code of Conduct](https://github.com/ramsey/laravel-oauth2-instagram/blob/master/CONDUCT.md). By participating in this project and its community, you are expected to uphold this code.
+This project adheres to a [Contributor Code of Conduct](https://github.com/ramsey/laravel-oauth2-instagram/blob/master/CODE_OF_CONDUCT.md). By participating in this project and its community, you are expected to uphold this code.
 
 ## Team members
 
