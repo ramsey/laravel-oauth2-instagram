@@ -53,7 +53,7 @@ Create an authorization URL and redirect users to it in order to request access 
 $authUrl = Instagram::authorize([], function ($url, $provider) use ($request) {
     $request->session()->put('instagramState', $provider->getState());
     return $url;
-};);
+});
 
 return redirect()->away($authUrl);
 ```
