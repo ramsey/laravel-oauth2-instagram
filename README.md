@@ -4,8 +4,6 @@
 [![Latest Version][badge-release]][release]
 [![Software License][badge-license]][license]
 [![Build Status][badge-build]][build]
-[![HHVM Status][badge-hhvm]][hhvm]
-[![Scrutinizer][badge-quality]][quality]
 [![Coverage Status][badge-coverage]][coverage]
 [![Total Downloads][badge-downloads]][downloads]
 
@@ -117,8 +115,6 @@ The ramsey/laravel-oauth2-instagram library is copyright © [Ben Ramsey](https:/
 [badge-release]: https://img.shields.io/packagist/v/ramsey/laravel-oauth2-instagram.svg?style=flat-square
 [badge-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [badge-build]: https://img.shields.io/travis/ramsey/laravel-oauth2-instagram/master.svg?style=flat-square
-[badge-hhvm]: https://img.shields.io/hhvm/ramsey/laravel-oauth2-instagram.svg?style=flat-square
-[badge-quality]: https://img.shields.io/scrutinizer/g/ramsey/laravel-oauth2-instagram/master.svg?style=flat-square
 [badge-coverage]: https://img.shields.io/coveralls/ramsey/laravel-oauth2-instagram/master.svg?style=flat-square
 [badge-downloads]: https://img.shields.io/packagist/dt/ramsey/laravel-oauth2-instagram.svg?style=flat-square
 
@@ -126,7 +122,5 @@ The ramsey/laravel-oauth2-instagram library is copyright © [Ben Ramsey](https:/
 [release]: https://packagist.org/packages/ramsey/laravel-oauth2-instagram
 [license]: https://github.com/ramsey/laravel-oauth2-instagram/blob/master/LICENSE
 [build]: https://travis-ci.org/ramsey/laravel-oauth2-instagram
-[hhvm]: http://hhvm.h4cc.de/package/ramsey/laravel-oauth2-instagram
-[quality]: https://scrutinizer-ci.com/g/ramsey/laravel-oauth2-instagram/
 [coverage]: https://coveralls.io/r/ramsey/laravel-oauth2-instagram?branch=master
 [downloads]: https://packagist.org/packages/ramsey/laravel-oauth2-instagram
