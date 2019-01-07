@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 namespace Ramsey\Laravel\OAuth2\Instagram\Test\Facades;
 
 use Ramsey\Laravel\OAuth2\Instagram\Facades\Instagram;
@@ -7,7 +9,7 @@ use League\OAuth2\Client\Provider\Instagram as LeagueInstagram;
 
 class InstagramFacadeTest extends InstagramTestCase
 {
-    public function testInstagramFacade()
+    public function testInstagramFacade(): void
     {
         $this->assertInstanceOf(
             LeagueInstagram::class,

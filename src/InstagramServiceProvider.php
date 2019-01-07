@@ -9,6 +9,8 @@
  * @license http://opensource.org/licenses/MIT MIT
  */
 
+declare(strict_types=1);
+
 namespace Ramsey\Laravel\OAuth2\Instagram;
 
 use Illuminate\Support\ServiceProvider;
@@ -32,7 +34,7 @@ class InstagramServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(): void
     {
         $this->publishes([
             __DIR__ . '/config/instagram.php' => config_path('instagram.php'),
@@ -44,7 +46,7 @@ class InstagramServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function register()
+    public function register(): void
     {
         $this->app->bind(LeagueInstagram::class, function ($app) {
             return new LeagueInstagram([
@@ -60,7 +62,7 @@ class InstagramServiceProvider extends ServiceProvider
      *
      * @return array
      */
-    public function provides()
+    public function provides(): array
     {
         return [
             LeagueInstagram::class

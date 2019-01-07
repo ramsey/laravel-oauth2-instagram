@@ -9,6 +9,8 @@
  * @license http://opensource.org/licenses/MIT MIT
  */
 
+declare(strict_types=1);
+
 namespace Ramsey\Laravel\OAuth2\Instagram\Facades;
 
 use Illuminate\Support\Facades\Facade;
@@ -25,7 +27,7 @@ class Instagram extends Facade
      *
      * @return string
      */
-    protected static function getFacadeAccessor()
+    protected static function getFacadeAccessor(): string
     {
         return LeagueInstagram::class;
     }

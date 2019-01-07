@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 namespace Ramsey\Laravel\OAuth2\Instagram\Test;
 
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
@@ -10,21 +12,21 @@ class InstagramTestCase extends TestCase
 {
     use MockeryPHPUnitIntegration;
 
-    protected function getEnvironmentSetup($app)
+    protected function getEnvironmentSetup($app): void
     {
         $app['config']->set('instagram.clientId', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
         $app['config']->set('instagram.clientSecret', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
         $app['config']->set('instagram.redirectUri', 'http://localhost/instagram');
     }
 
-    protected function getPackageProviders($app)
+    protected function getPackageProviders($app): array
     {
         return [
             InstagramServiceProvider::class,
         ];
     }
 
-    protected function getPackageAliases($app)
+    protected function getPackageAliases($app): array
     {
         return [
             'Instagram' => Instagram::class,
