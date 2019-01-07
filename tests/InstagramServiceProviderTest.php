@@ -15,4 +15,12 @@ class InstagramServiceProviderTest extends InstagramTestCase
             $this->app[LeagueInstagram::class]
         );
     }
+
+    public function testProvidesReturnsArrayWithClassName()
+    {
+        $serviceProvider = \Mockery::mock(InstagramServiceProvider::class);
+        $serviceProvider->shouldReceive('provides')->passthru();
+
+        $this->assertSame([LeagueInstagram::class], $serviceProvider->provides());
+    }
 }
