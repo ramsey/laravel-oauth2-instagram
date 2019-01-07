@@ -1,15 +1,39 @@
 # ramsey/laravel-oauth2-instagram Changelog
 
-## 2.0.0
+All notable changes to this project will be documented in this file.
 
-_Released: 2017-04-06_
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-* Updated to use league/oauth2-instagram `^2.0`
-* Changed minimum PHP version required to `^5.6`
-* Test support for PHP 7.1 and nightly builds
 
-## 1.0.0
+## [Unreleased]
 
-_Released: 2015-12-27_
+### Added
 
-* First release
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+
+## [2.0.0] - 2017-04-06
+
+### Changed
+
+* Updated to use league/oauth2-instagram `^2.0`.
+* Changed minimum PHP version required to `^5.6`.
+
+
+## [1.0.0] - 2015-12-27
+
+* First release.
+
+
+[Unreleased]: https://github.com/ramsey/laravel-oauth2-instagram/compare/2.0.0...HEAD
+[2.0.0]: https://github.com/ramsey/laravel-oauth2-instagram/compare/1.0.0...2.0.0
+[1.0.0]: https://github.com/ramsey/laravel-oauth2-instagram/commits/1.0.0

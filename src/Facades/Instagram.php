@@ -7,8 +7,6 @@
  *
  * @copyright Copyright (c) Ben Ramsey <ben@benramsey.com>
  * @license http://opensource.org/licenses/MIT MIT
- * @link https://packagist.org/packages/ramsey/laravel-oauth2-instagram Packagist
- * @link https://github.com/ramsey/laravel-oauth2-instagram GitHub
  */
 
 namespace Ramsey\Laravel\OAuth2\Instagram\Facades;
